@@ -3,6 +3,8 @@ const navMenu = document.getElementById("nav__menu");
 const navToggle = document.getElementById("nav__toggle");
 const navClose = document.getElementById("nav__close");
 
+
+
 /*=========== MENU SHOW ============*/
 /* validate if constant exists */
 if (navToggle) {
@@ -11,6 +13,9 @@ if (navToggle) {
     })
 }
 
+
+
+
 /*=========== MENU HIDDEN ============*/
 /* validate if constant exists */
 if (navClose) {
@@ -18,6 +23,9 @@ if (navClose) {
         navMenu.classList.remove('show__menu');
     })
 }
+
+
+
 
 /*================= REMOVE MENU MOBILE =====================*/
 const navLink = document.querySelectorAll('.nav__link');
@@ -28,3 +36,15 @@ const linkAction = () =>{
 }
 
 navLink.forEach(l => l.addEventListener('click',linkAction));
+
+
+
+/*================= CHANGE BACKGROUND HEADER =====================*/
+const scrollHeader = () =>{
+    const header = document.getElementById('header');
+    this.scrollY >= 50 ? header.classList.add('bg__header')
+                      : header.classList.remove('bg__header');
+}
+window.addEventListener('scroll',scrollHeader);
+
+
