@@ -29,23 +29,23 @@
                 <div class="nav__menu" id="nav__menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">home</a>
+                            <a href="#home" class="nav__link active__link">home</a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="#about" class="nav__link">about</a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#products" class="nav__link">Products</a>
+                            <a href="#products" class="nav__link">products</a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#popular" class="nav__link">Popular</a>
+                            <a href="#popular" class="nav__link">popular</a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact</a>
+                            <a href="#order" class="nav__link">order</a>
                         </li>
                     </ul>
 
@@ -104,10 +104,10 @@
                         <span class="section__subtitle">about us</span>
                         <h2 class="section__title about__title">
                             <div>
-                                dfdffgg
+                                we provide
                                 <img src="assets/img/about.png" alt="about image">
                             </div>
-                            gfhhh dfdd
+                            new fashion clothes
                         </h2>
 
                         <p class="about__description">
@@ -115,22 +115,149 @@
                         </p>
                     </div>
 
-                    <img src="assets/img/about2.jpg" alt="about image" class="about__img">
+                    <img src="assets/img/about2.png" alt="about image" class="about__img">
                 </div>
             </section>
 
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                <div class="products__container container">
+                    <span class="section__subtitle">our products</span>
+                    <h2 class="section__title">choose your <br> favorite clothes</h2>
+
+                    <ul class="products__filters">
+                        <li>
+                            <button class="product__item li-active" data-cont=".first-product-category">
+                                <span>all</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="product__item" data-cont=".secound-product-category">
+                                <span>clothes</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="product__item" data-cont=".third-product-category">
+                                <span>shoes</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="product__item" data-cont=".fourth-product-category">
+                                <span>bags</span>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="products__content grid">
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">shoes</h1>
+                            <h3 class="product__subtitle">dark blue</h3>
+                            <img src="assets/img/product1.png" alt="product" class="product__img">
+                            <h3 class="product__price">$567</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">jacket</h1>
+                            <h3 class="product__subtitle">original skin</h3>
+                            <img src="assets/img/product2.png" alt="product" class="product__img">
+                            <h3 class="product__price">$1644</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">2C shoes</h1>
+                            <h3 class="product__subtitle">orange & black</h3>
+                            <img src="assets/img/product3.png" alt="product" class="product__img">
+                            <h3 class="product__price">$632</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">hat</h1>
+                            <h3 class="product__subtitle">new FS</h3>
+                            <img src="assets/img/product4.png" alt="product" class="product__img">
+                            <h3 class="product__price">$59</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">sweatshirt</h1>
+                            <h3 class="product__subtitle">high quality cotton</h3>
+                            <img src="assets/img/product5.png" alt="product" class="product__img">
+                            <h3 class="product__price">$857</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                        <article class="product__card first-product-category">
+                            <h1 class="product__title">bag</h1>
+                            <h3 class="product__subtitle">red skin</h3>
+                            <img src="assets/img/product6.png" alt="product" class="product__img">
+                            <h3 class="product__price">$226</h3>
+                            <button class="button product__button">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== CLIENTS ====================-->
+            <section class="clients section">
+                <span class="section__subtitle">our clients</span>
+                <h2 class="section__title">what people <br> say about us</h2>
+
+                <div class="clients__container">
+                    <div class="client">
+                        <div class="client__img">
+                            <img src="assets/img/person1.jpg" alt="client">
+                            <br>
+                            <span class="client__name">youssef</span>
+                        </div>
+                        
+                        <p class="client__desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate facere magni blanditiis quas harum, laudantium sequi saepe voluptatem et asperiores dignissimos.
+                        </p>
+                    </div>
+
+                    <div class="client">
+                        <div class="client__img">
+                            <img src="assets/img/person2.jpg" alt="client">
+                            <br>
+                            <span class="client__name">sara</span>
+                        </div>
+                        
+                        <p class="client__desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate facere magni blanditiis quas harum, laudantium sequi saepe voluptatem et asperiores dignissimos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
             <!--==================== POPULAR ====================-->
             <section class="popular section" id="popular">
-                <span class="section__subtitle">sadffds</span>
-                <h2 class="section__title"></h2>
+                <span class="section__subtitle">the best clothes</span>
+                <h2 class="section__title">popular products</h2>
 
                 <div class="popular__container container grid">
                     <article class="popular__card">
-                        <img src="assets/img/about.jpg" alt="popular image" class="popular__img">
+                        <img src="assets/img/product2.png" alt="popular image" class="popular__img">
                         
-                        <h3 class="popular__name"></h3>
-                        <span class="popular__description"></span>
-                        <span class="popular__price"></span>
+                        <h3 class="popular__name">jacket</h3>
+                        <span class="popular__description">original skin</span>
+                        <span class="popular__price">$1644</span>
 
                         <button class="popular__button">
                             <i class="ri-shopping-bag-line"></i>
@@ -138,11 +265,11 @@
                     </article>
 
                     <article class="popular__card">
-                        <img src="assets/img/about.jpg" alt="popular image" class="popular__img">
+                        <img src="assets/img/product3.png" alt="popular image" class="popular__img">
                         
-                        <h3 class="popular__name"></h3>
-                        <span class="popular__description"></span>
-                        <span class="popular__price"></span>
+                        <h3 class="popular__name">2C shoes</h3>
+                        <span class="popular__description">orange & black</span>
+                        <span class="popular__price">$632</span>
 
                         <button class="popular__button">
                             <i class="ri-shopping-bag-line"></i>
@@ -150,27 +277,232 @@
                     </article>
 
                     <article class="popular__card">
-                        <img src="assets/img/about.jpg" alt="popular image" class="popular__img">
+                        <img src="assets/img/product4.png" alt="popular image" class="popular__img">
                         
-                        <h3 class="popular__name">fffffssfsa</h3>
-                        <span class="popular__description">dsa dfsafaf asd</span>
-                        <span class="popular__price">45</span>
+                        <h3 class="popular__name">hat</h3>
+                        <span class="popular__description">new FS</span>
+                        <span class="popular__price">$59</span>
 
                         <button class="popular__button">
                             <i class="ri-shopping-bag-line"></i>
                         </button>
                     </article>
                 </div>
+            </section>
+
+
+            <!--==================== ORDER ====================-->
+            <section class="order section" id="order">
+                <span class="section__subtitle">order</span>
+                <h2 class="section__title">get your <br> products now</h2>
+
+                <div class="order-container">
+                    <div class="order-content">
+                        <form action="#">
+                          <fieldset>
+                              <legend>order details :</legend>
+                              <div class="user-details">
+                                  <div class="input-box">
+                                      <label for="full-name" class="details">full name</label>
+                                      <input type="text" id="full-name" placeholder="enter your name" required>
+                                  </div>
+                                  <div class="input-box">
+                                    <label for="phone-number" class="details">phone number</label>
+                                    <input type="text" id="phone-number" placeholder="Enter your number" required>
+                                  </div>
+                                  <div class="input-box">
+                                    <label for="food-name" class="details">product name</label>
+                                    <input type="text" id="product-name" placeholder="enter product name" required>
+                                  </div>
+                                  <div class="input-box">
+                                      <label for="order-details" class="details">order details</label>
+                                      <input type="text" id="order-details" placeholder="specifics your product">
+                                  </div>
+                                  <div class="input-box">
+                                    <label for="how-many" class="details">how many</label>
+                                    <input type="number" placeholder="how many you want" required>
+                                  </div>
+                                  <div class="input-box">
+                                      <label for="when" class="details">when you want</label>
+                                      <input type="datetime-local" id="when" name="when">
+                                  </div>
+                                  <div class="input-box">
+                                      <label for="address" class="details">address</label>
+                                      <textarea
+                                         name="address" 
+                                         placeholder="enter your address" 
+                                         id="address" 
+                                         required></textarea>
+                                  </div>
+                                  <div class="input-box">
+                                    <span>our address</span>
+                                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37709963704!2d31.223444894174385!3d30.059483810339266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2sin!4v1648403098407!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                  </div>
+                              </div>
+                          </fieldset>
+                
+                
+                          <div class="survery">
+                              <fieldset>
+                                  <legend>survey:</legend>
+                                        
+                                  <div class="form-group">
+                                    <p>would you recommend our products to a friend?</p>
+                                    <label>
+                                      <input
+                                        name="user-recommend"
+                                        value="definitely"
+                                        type="radio"
+                                        class="input-radio"
+                                        checked
+                                      />Definitely</label
+                                    >
+                              <label>
+                                      <input
+                                        name="user-recommend"
+                                        value="maybe"
+                                        type="radio"
+                                        class="input-radio"
+                                      />Maybe</label
+                                    >
+                              
+                                    <label
+                                      ><input
+                                        name="user-recommend"
+                                        value="not-sure"
+                                        type="radio"
+                                        class="input-radio"
+                                      />Not sure</label
+                                    >
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <p>
+                                      what is your favorite category?
+                                    </p>
+                                    <select id="most-like" name="mostLike" class="form-control" required>
+                                      <option disabled selected value>Select an option</option>
+                                      <option value="shoes">shoes</option>
+                                      <option value="jackets">jackets</option>
+                                      <option value="t-shirts">t-shirts</option>
+                                      <option value="bags">bags</option>
+                                    </select>
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <p>any comments or suggestions?</p>
+                                    <textarea
+                                      id="comments"
+                                      class="input-textarea"
+                                      name="comment"
+                                      placeholder="Enter your comment here..."
+                                    ></textarea>
+                                  </div>
+                                      </fieldset>
+                          </div>
+                
+                              <div class="button" id="form__button">
+                              <input type="submit" value="Register">
+                              </div>
+                        </form>
+                    </div>
+                   </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer-container container ">
+                <div class="footer-content">
+                    <div class="footer-data">
+                        <h3 class="footer-title"><i class="ri-t-shirt-fill"></i>
+                            fashion</h3>
+                            <ul>
+                                <li class="footer-item">
+                                    <a href="" class="footer-link">fantastic</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-link">outstanding </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-link">modern</a>
+                                </li>
+                            </ul>
+                    </div>
+    
+                    <div class="footer-data">
+                        <h3 class="footer-subtitle">About</h3>
+                        <ul>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">About Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Features</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-data">
+                        <h3 class="footer-subtitle">Company</h3>
+                        <ul>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Team</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-data">
+                        <h3 class="footer-subtitle">Support</h3>
+                        <ul>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">FAQs</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Support Center</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="footer-end">
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer-social-item">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer-social-item">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer-social-item">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer-social-item">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                    <span class="copyright">
+                        &copy; 2021 fouad nasser. all rigths reserved
+                    </span>
+                </div>
+    
+            </div>
         </footer>
 
         <!--========== SCROLL UP ==========-->
-
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
